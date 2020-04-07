@@ -1,14 +1,17 @@
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	border: 0;
-	font: inherit;
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+	font-weight: normal;
 }
 
 html, body {
 	font-size: 16px;
+	font-family:Lato, Helvetica, Arial, sans-serif;
+	border: 6px solid lightgray;
 }
 
 .clear {
@@ -19,6 +22,8 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
+	font-family: Lato;
+	
 }
 
 #cv {
@@ -29,6 +34,7 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
+	
 }
 
 #name h1 {
@@ -44,6 +50,7 @@ p {
 
 #mainArea {
 	padding: 0 40px;
+	border-top: 2px solid #cf8a05 ;
 }
 
 #headshot {
@@ -64,12 +71,16 @@ p {
 
 #contactDetails {
 	float: right;
+	
+	
+	
 }
 
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 0.9em;
+	font-size: 16px;
 	margin-top: 2px;
+	
 }
 
 #contactDetails ul li {
@@ -78,6 +89,8 @@ p {
 
 #contactDetails ul li a, a[href^=tel] {
 	text-decoration: none;
+	font-family: Lato;
+	color: black;
 }
 
 #contactDetails ul li a:hover {
@@ -85,34 +98,44 @@ p {
 
 section {
 	padding: 20px 0 0;
+	border-bottom: 1px solid lightgray;
 }
 
 section:first-child {
-	border-top: 0;
+	
+	
+	
 }
 
 section:last-child {
 	padding: 20px 0 10px;
+	border-bottom: none;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color: #cf8a05;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	border-top:0;
+	
 }
 
 .sectionTitle h1 {
 	font-style: italic;
 	font-size: 1.5em;
+	
+	
 }
 
 .sectionContent h2 {
 	font-size: 1.5em;
 	margin-bottom: -2px;
+	
 }
 
 .subDetails {
@@ -126,8 +149,12 @@ section:last-child {
 	column-count: 3;
 	margin-bottom: 20px;
 	font-size: 1em;
+	
+	padding:5%;
+	font-family: 'Lato';
 }
 
 .keySkills ul li {
 	margin-bottom: 3px;
+	
 }
