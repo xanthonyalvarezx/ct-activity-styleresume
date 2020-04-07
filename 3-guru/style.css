@@ -14,6 +14,11 @@ html, body{
 	
 
 }
+ul, a, li{
+	list-style-type:none ;
+	font-family: Lato;
+	
+}
 .mainDetails{
 	padding:50px;
 	border-bottom: 2px solid #cf8a05;
@@ -58,6 +63,7 @@ html, body{
 	width: 25%;
 	color:#cf8a05 ;
 	font-style: italic;
+	margin-bottom: -200px;
 	
 	
 }
@@ -69,6 +75,8 @@ html, body{
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	padding: 20px;
+	font-family: Lato;
 	
 	
 }
