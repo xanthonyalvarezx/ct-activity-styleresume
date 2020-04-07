@@ -1,5 +1,27 @@
+*{font-family: rokkitt;
+	font-weight: normal;
+
+
+}
 .clear {
 	clear: both;
+}
+
+html, body{
+	border: 6px solid lightgray;
+	font-family: Lato;
+	margin:0;
+	
+
+}
+.mainDetails{
+	padding:50px;
+	border-bottom: 2px solid #cf8a05;
+	margin: 5px 0 5px 0;
+}
+.mainDetails h2{
+	margin-top:-40px;
+	font-weight: normal;
 }
 
 #headshot {
@@ -8,20 +30,74 @@
 	margin-right: 30px;
 }
 
+#headshot img{
+	border-radius: 100%;
+	
+	
+}
+
 #name {
 	float: left;
+	margin-left:50px ;
+	font-size: 26px;
+	
+	
 }
 
 #contactDetails {
 	float: right;
+	list-style-type: none;
+}
+
+#contactDetails ul li a {
+	list-style-type: none;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	color:#cf8a05 ;
+	font-style: italic;
+	
+	
 }
+
+
+
+
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	
+	
 }
+
+p{
+	font-family: Lato;
+	line-height: 25px;
+	
+}
+.keySkills{
+	list-style-type:none;
+	column-count: 3;
+	font-family:Lato;
+}
+div{
+	margin: 0 20px 0 20px ;
+	padding: -5px;
+
+}
+
+section{
+	border-bottom: 1px solid lightgray;
+}
+.subDetails{
+	margin-top:-20px;
+	font-style: italic;
+}
+
+
+
+
+	
