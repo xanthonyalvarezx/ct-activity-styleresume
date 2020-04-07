@@ -1,0 +1,67 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+        background-color: grey; 
+        font-size: 18px; 
+        color: whitesmoke;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: 2px solid tomato;
+
+}
+
+.mainDetails{
+    text-align: center;
+    list-style-type: none;
+    color: tomato;
+    font-family: monospace;
+    border-bottom: none;
+}
+
+#contactDetails li{
+    display: inline;
+    padding: 2%;
+}
+
+
+
+#mainArea {
+    border-top: solid 2px tomato;
+
+}
+
+#mainArea h1, h2{
+    color: tomato;
+    text-decoration: underline black;
+    
+}
+
+img{
+    border: 3px dotted tomato;
+    border-radius: 100%;
+}
+
+#headshot{
+    background-color: black;
+    border: 1px solid tomato;
+}
+
+.keySkills{
+    text-align: center;
+    list-style-type: none;
+    
+    
+}
+
+a:hover{
+    font-size: 36px;
+}
+
+a:visited{
+    color: teal;
+}
+
+article{
+    text-align: center;
+}
